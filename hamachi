@@ -1,0 +1,11 @@
+size = input("Enter the fish's size:")
+x = int(size)
+
+if x<=35:
+    print("ツバス")
+elif 35<x<=60:
+    print("ハマチ")
+elif 60<x<=80:
+    print("メジロ")
+elif x>80:
+    print("ブリ")
